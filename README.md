@@ -8,6 +8,7 @@ You can use it with [pre-commit](https://pre-commit.com/) or in a naive [Git hoo
 Add the follow lines to your .pre-commit-config.yaml
 ```
 -   repo: https://github.com/chengzhang/google-python-style-precommit-hook.git
+    rev: 0f10b46c22c8c389ce6bc16d71a18c03c74d160c
     hooks:
     -   id: google-python-style
 ```
