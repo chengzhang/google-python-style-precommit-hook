@@ -1,0 +1,6 @@
+-   id: google-python-style
+    name: Google Python Code Style Formatter
+    description: Formats code in Google's Python codestyle.
+    entry: ./pre-commit.sh
+    language: script
+    files: \.py$  # work on python code files only
